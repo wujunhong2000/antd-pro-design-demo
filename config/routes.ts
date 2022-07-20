@@ -43,6 +43,11 @@
     component: './TableList',
   },
   {
+    name: 'test',
+    path: '/test',
+    component: './Test',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
