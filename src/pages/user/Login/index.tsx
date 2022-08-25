@@ -42,12 +42,12 @@ const Login: React.FC = () => {
 
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
-    if (userInfo) {
-      await setInitialState((s) => ({
-        ...s,
-        currentUser: userInfo,
-      }));
-    }
+    // if (userInfo) {
+    //   await setInitialState((s) => ({
+    //     ...s,
+    //     currentUser: userInfo,
+    //   }));
+    // }
   };
 
   const handleSubmit = async (values: API.LoginParams) => {

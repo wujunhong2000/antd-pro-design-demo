@@ -20,6 +20,12 @@
     component: './Welcome',
   },
   {
+    path: '/test',
+    name: 'test',
+    icon: 'smile',
+    component: './Test',
+  },
+  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
@@ -44,7 +50,7 @@
   },
   {
     path: '/',
-    redirect: '/welcome',
+    redirect: '/test',
   },
   {
     component: './404',
